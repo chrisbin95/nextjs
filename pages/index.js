@@ -22,12 +22,11 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://chrisbin95.github.io/Portfolio/" className={styles.card}></a>
+          <a href="https://chrisbin95.github.io/Portfolio/" className={styles.card}>
             <h2>Projects &rarr;</h2>
-            <div className={styles.image}>
-               <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" id="container-image"/>
-            <p>Hi there, Click to see my portfolio website &#9654;</p>
-          </div>
+               <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" class="container-image"/>
+            <p>Portfolio website &#9652;</p>
+          </a>
 
           <a href="#" className={styles.card}>
             <h2>Learn &rarr;</h2>

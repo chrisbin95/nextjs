@@ -22,9 +22,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <div className={styles.container-image}>
+          <div>
            <h2>Projects &rarr;</h2>
-            <a href="https://chrisbin95.github.io/Portfolio/">
+            <a href="https://chrisbin95.github.io/Portfolio/" className="container-grid">
                <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" width={160} height={180}/>
             </a>
             <p>Portfolio Website &#9653;</p>

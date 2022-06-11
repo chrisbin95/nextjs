@@ -1,7 +1,12 @@
 .container {
   padding: 0 2rem;
 }
-
+#container-image {
+  height:80vh;
+  width:auto;
+  padding:2px;
+  box-shadow:inset 0px 10px 3px gray;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;

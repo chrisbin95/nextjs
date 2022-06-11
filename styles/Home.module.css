@@ -76,6 +76,10 @@
   padding:2px;
   box-shadow:inset 0px 10px 3px gray;
 }
+.card-01{
+  width:100%;
+  height:auto;
+}
 .card {
   margin: 1rem;
   padding: 1.5rem;

@@ -71,7 +71,7 @@
   flex-wrap: wrap;
   max-width: 800px;
 }
-.grid img #container-image {
+.image {
   height:80vh;
   width:auto;
   padding:2px;

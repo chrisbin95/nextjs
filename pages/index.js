@@ -24,8 +24,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://chrisbin95.github.io/Portfolio/" className={styles.card}>
             <h2>Projects &rarr;</h2>
-               <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" class="container-image" width={100%}
-        height={80vh}/>
+               <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" class="container-image" width={100} height={100}/>
             <p>Portfolio website &#9652;</p>
           </a>
 

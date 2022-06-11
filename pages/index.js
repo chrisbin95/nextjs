@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import image1 from '../next/image/portfolio.jpeg'
+import image1 from '../public/portfolio.jpeg'
 
 export default function Home() {
   return (

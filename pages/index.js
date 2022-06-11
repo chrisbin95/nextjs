@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import styles from '../styles/global.css'
+import styles1 from '../styles/global.css'
 
 export default function Home() {
   return (
@@ -23,11 +23,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://chrisbin95.github.io/Portfolio/" className={styles.card}>
-            <h2>Projects &rarr;</h2>
-               <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" class="container-image" width={100} height={100}/>
+          <div className={styles1.container-image}>
+           <h2>Projects &rarr;</h2>
+            <a href="https://chrisbin95.github.io/Portfolio/" className={styles1.card-01}>
+               <Image src="/Screenshot_20220611-235447.jpg" alt="portfolio" width={100} height={100}/></a>
             <p>Portfolio website &#9652;</p>
-          </a>
+          </div>
 
           <a href="#" className={styles.card}>
             <h2>Learn &rarr;</h2>

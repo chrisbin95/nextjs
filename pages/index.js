@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import image1 from '../next/image/portfolio.jpeg'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://chrisbin95.github.io/Portfolio/" className={styles.card}>
             <h2>Projects &rarr;</h2>
+            <img src={image1} alt="portfolio" id="container-image"/>
             <p>Hi there, Click to see my portfolio website &#9654;</p>
           </a>
 
